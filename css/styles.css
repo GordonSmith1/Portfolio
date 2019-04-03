@@ -1,0 +1,15 @@
+.hero_img {
+    background-image: url(../img/jumbo-background.jpg);
+    height: 100vh;
+}
+
+.flex_c {
+    display: flex;
+    justify-content: center;
+}
+
+.flex_space_b {
+    display: flex;
+    justify-content: space-between;
+}
+
