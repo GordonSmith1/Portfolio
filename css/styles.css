@@ -1,6 +1,9 @@
 .hero_img {
     background-image: url('../img/jumbo-background.jpg');
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .flex_c {
