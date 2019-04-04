@@ -1,9 +1,13 @@
+#main_intro {
+    background-image: radial-gradient(#e5e5e5, #b1a7a5);
+}
+
 .hero_img {
-    background-image: url('../img/jumbo-background.jpg');
+    /* background-image: url('../img/hero-intro-1.jpg'); */
     height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .flex_c {
@@ -16,3 +20,17 @@
     justify-content: space-between;
 }
 
+.btn-default {
+    background-color: #191919;
+}
+.btn-default:hover {
+    background-color: #313131;
+}
+
+.soc_med , .btn-default {
+    color: #ea3057; 
+}
+
+.soc_med:hover , .btn-default:hover {
+    color: #ba2a48;
+}
