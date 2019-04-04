@@ -3,6 +3,15 @@
     background-image: radial-gradient(#e5e5e5, #b1a7a5);
 }
 
+#main {
+    background-color: #b1a7a5;
+    color: #ea3057;
+}
+
+.dg {
+    background-color: #5b5553;
+}
+
 .flex_c {
     display: flex;
     justify-content: center;
@@ -10,6 +19,12 @@
 
 .flex_space_b {
     display: flex;
+    justify-content: space-between;
+}
+
+.flex_space_b_col {
+    display: flex;
+    flex-direction: column;
     justify-content: space-between;
 }
 
@@ -21,6 +36,9 @@
     color: #ba2a48;
 }
 
+.thumbnail {
+    height: 300px;
+}
 /* Intro Page */
 .hero_img {
     /* background-image: url('../img/hero-intro-1.jpg'); */
@@ -37,5 +55,14 @@
     background-color: #313131;
 }
 
+/* Home Page */
+.text-sm {
+    color: #5b5553;
+}
+
+.jumbotron {
+    border-radius: 0px;
+    border-style: none;
+}
 
 
