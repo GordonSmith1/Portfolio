@@ -1,8 +1,7 @@
 /* Global */
 #main_intro {
     background-image: radial-gradient(#e5e5e5, #b1a7a5);
-    padding: 0;
-    margin: 0;
+    height: 100vh;
 }
 
 #main {
